@@ -38,7 +38,7 @@ const NewExpense = (props) => {
       )}
       {formVisible && (
         <p className="cancel-button" onClick={toggleFormHandler}>
-          Cancel
+          Close
         </p>
       )}
     </div>

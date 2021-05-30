@@ -9,7 +9,12 @@
 
 .title {
   text-align: center;
-  background: -webkit-linear-gradient(45deg, #000000, rgb(243, 103, 103));
+  background: -webkit-linear-gradient(
+    45deg,
+    rgb(243, 103, 103),
+    #220131,
+    #220131
+  );
   background-clip: #2a3b50;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

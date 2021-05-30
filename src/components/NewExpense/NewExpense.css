@@ -5,11 +5,14 @@
 .cancel-button {
   position: absolute;
   right: 84px;
-  top: 24.5rem;
+  top: 25rem;
+  text-decoration: underline;
+  font-size: 20px;
+  color: rgba(243, 103, 103, 0.733);
 }
 
 .cancel-button:hover {
-  color: gray;
+  color: #2c5b9479;
 }
 
 .button {
@@ -18,10 +21,9 @@
 }
 
 .new-expense button {
-  margin: 0 auto;
   font: inherit;
   cursor: pointer;
-  width: 100%;
+  width: 154px;
   height: 5rem;
   background-color: rgba(243, 103, 103, 0.733);
   box-shadow: 6px 6px 10px 0 rgb(0 0 0 / 20%),
@@ -30,10 +32,6 @@
   border: none;
   color: white;
   transition: 0.5s ease-out;
-}
-
-.add-button {
-  width: 20px;
 }
 
 .new-expense button:hover,
@@ -62,10 +60,9 @@
 
 @media screen and (min-width: 768px) {
   .cancel-button {
-    position: absolute;
-    left: 21rem;
+    left: 8rem;
     top: 5rem;
-    transform: translate(-50%, -50%);
+
     cursor: pointer;
     color: white;
   }
