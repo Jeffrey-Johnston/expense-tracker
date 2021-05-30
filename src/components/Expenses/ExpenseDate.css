@@ -15,16 +15,16 @@
 .expense-date__month {
   font-size: 0.75rem;
   font-weight: bold;
-  color: rgba(236, 116, 116, 0.753);
+  color: rgba(243, 103, 103, 0.733);
 }
 
 .expense-date__year {
   font-size: 0.75rem;
-  color: rgba(236, 116, 116, 0.753);
+  color: rgba(243, 103, 103, 0.733);
 }
 
 .expense-date__day {
   font-size: 1.5rem;
   font-weight: bold;
-  color: rgba(236, 116, 116, 0.753);
+  color: rgba(243, 103, 103, 0.733);
 }

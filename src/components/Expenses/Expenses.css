@@ -8,8 +8,12 @@
 }
 
 .title {
-  color: #6a788c;
-  margin-right: 1rem;
+  text-align: center;
+  background: -webkit-linear-gradient(45deg, #000000, rgb(243, 103, 103));
+  background-clip: #2a3b50;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5); /* 50% white from bottom */
 }
 section {
