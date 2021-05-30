@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 5.5rem;
   height: 5.5rem;
-  background-color: #8c9bb0;
+  background-color: #6a788c;
   box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.25),
     -5px -5px 15px 0 rgba(255, 255, 255, 0.3);
   color: white;
@@ -15,13 +15,16 @@
 .expense-date__month {
   font-size: 0.75rem;
   font-weight: bold;
+  color: rgba(236, 116, 116, 0.753);
 }
 
 .expense-date__year {
   font-size: 0.75rem;
+  color: rgba(236, 116, 116, 0.753);
 }
 
 .expense-date__day {
   font-size: 1.5rem;
   font-weight: bold;
+  color: rgba(236, 116, 116, 0.753);
 }

@@ -1,14 +1,14 @@
 .expenses {
   padding: 1rem;
-  box-shadow: 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
-    -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+  box-shadow: 6px 6px 10px 0 rgb(0 0 0 / 20%),
+    -4px -4px 5px 0 rgb(255 255 255 / 50%);
   margin: 2rem auto;
   width: 50rem;
   max-width: 95%;
 }
 
 .title {
-  color: #48505a;
+  color: #6a788c;
   margin-right: 1rem;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5); /* 50% white from bottom */
 }
