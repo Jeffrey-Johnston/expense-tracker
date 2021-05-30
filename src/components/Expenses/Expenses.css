@@ -7,6 +7,11 @@
   max-width: 95%;
 }
 
+.title {
+  color: #48505a;
+  margin-right: 1rem;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5); /* 50% white from bottom */
+}
 section {
   width: 100%;
   display: flex;

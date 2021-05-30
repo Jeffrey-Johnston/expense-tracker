@@ -24,9 +24,11 @@ const Expenses = (props) => {
   return (
     <div>
       <Card className="expenses">
+        <h1 className="title">EXPENSE TRACKER</h1>
         <section className="top-section">
           <div className="button-group">
             <NewExpense onAddExpense={addExpenseHandler} />
+
             <ExpensesFilter
               selected={filteredYear}
               onChangeFilter={filterChangeHandler}

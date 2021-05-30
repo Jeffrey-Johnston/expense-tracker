@@ -1,6 +1,5 @@
 .new-expense {
   background-color: #8c9bb0;
-
   border-radius: 6px;
 }
 
@@ -9,11 +8,15 @@
 }
 
 .cancel-button {
+  position: absolute;
+  left: 15rem;
+  top: 24.5rem;
   cursor: pointer;
+  color: white;
 }
 
 .cancel-button:hover {
-  color: white;
+  color: gray;
 }
 
 .button-div {
@@ -66,4 +69,21 @@
 .new-expense button.alternative:hover,
 .new-expense button.alternative:active {
   background-color: #ddb3f8;
+}
+
+@media screen and (min-width: 549px) {
+  .cancel-button {
+    top: 21rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cancel-button {
+    position: absolute;
+    left: 10rem;
+    top: 5rem;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: white;
+  }
 }
