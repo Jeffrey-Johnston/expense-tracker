@@ -17,7 +17,6 @@
 
 .button {
   font-size: 50px;
-  color: #40005d;
 }
 
 .new-expense button {
@@ -25,13 +24,12 @@
   cursor: pointer;
   width: 154px;
   height: 5rem;
-  background-color: rgba(243, 103, 103, 0.733);
-  box-shadow: 6px 6px 10px 0 rgb(0 0 0 / 20%),
-    -4px -4px 5px 0 rgb(255 255 255 / 50%);
+  background-color: #3f3f3f;
+  box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.25);
   border-radius: 6px;
   border: none;
-  color: white;
-  transition: 0.5s ease-out;
+  color: #ffffff;
+  transition: 0.5s ease-in;
 }
 
 .new-expense button:hover,

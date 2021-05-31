@@ -3,9 +3,9 @@
   padding: 1rem;
   border-radius: 12px;
   width: 100%;
-  background-color: #8c9bb0;
+  background-color: #3f3f3f;
   box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
-    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+    inset -6px -6px 6px 0 rgba(255, 255, 255, 0.315);
   text-align: center;
   display: flex;
   justify-content: space-around;

@@ -1,25 +1,54 @@
+.background-shade {
+  position: fixed;
+  width: 200vw;
+  height: 120vh;
+  margin-top: -10%;
+  background-color: #00000094;
+  z-index: -1;
+}
+.background-black {
+  position: fixed;
+  width: 200vw;
+  height: 100vh;
+  margin-bottom: 50%;
+  margin-left: -25%;
+  margin-right: -25%;
+  transform: rotate(-6deg);
+  background-color: #202020;
+  z-index: -2;
+}
+.background-yellow {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  margin-top: -20%;
+  background-color: #3f3f3f;
+  z-index: -2;
+}
+.background-white {
+  position: fixed;
+  width: 200vw;
+  height: 100vh;
+  margin-top: 60%;
+  margin-left: -25%;
+  margin-right: -25%;
+  transform: rotate(-10deg);
+  background-color: #ffdf6c;
+  z-index: -2;
+}
+
 .expenses {
   padding: 1rem;
-  box-shadow: 6px 6px 10px 0 rgb(0 0 0 / 20%),
-    -4px -4px 5px 0 rgb(255 255 255 / 50%);
+  box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.25);
   margin: 2rem auto;
   width: 50rem;
-  max-width: 95%;
+  max-width: 90%;
+  background-color: #707070;
+  z-index: 2;
 }
 
 .title {
   text-align: center;
-  background: -webkit-linear-gradient(
-    45deg,
-    rgb(243, 103, 103),
-    #220131,
-    #220131
-  );
-  background-clip: #2a3b50;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5); /* 50% white from bottom */
 }
 section {
   width: 100%;
@@ -46,9 +75,20 @@ section {
     flex-direction: row;
   }
 
+  .expenses {
+    width: 75%;
+  }
+
   .button-group {
     flex-direction: column;
     height: 12rem;
     width: fit-content;
+  }
+}
+
+@media screen and (min-width: 1024) {
+  .expenses {
+    width: 75%;
+    max-width: 768px;
   }
 }

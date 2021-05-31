@@ -20,9 +20,8 @@
   padding: 0.5rem 3rem;
   font-weight: bold;
   border-radius: 6px;
-  color: rgba(243, 103, 103, 0.733);
-  background-color: #6a788c;
-  box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.25),
-    -5px -5px 15px 0 rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  background-color: #3f3f3f;
+  box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.25);
   border: none;
 }
