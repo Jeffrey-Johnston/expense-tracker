@@ -10,6 +10,7 @@
 .expense-item__description {
   display: flex;
   flex-direction: column-reverse;
+
   align-items: flex-end;
   height: 100%;
   flex: 1;
@@ -18,16 +19,19 @@
 }
 
 .expense-item h2 {
-  color: #3a3a3a;
   font-size: 1rem;
   flex: 1;
-  margin: 0 1rem;
+  margin: 0;
+  margin-top: 1rem;
   color: white;
 }
 
 .expense-item__price {
   font-size: 1rem;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  height: 2rem;
   width: fit-content;
   color: white;
   background-color: #707070;
