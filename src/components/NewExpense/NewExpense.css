@@ -3,16 +3,18 @@
 }
 
 .cancel-button {
-  position: absolute;
+  /* position: absolute;
   right: 84px;
-  top: 25rem;
+  top: 25rem; */
+  padding: 1rem 3rem;
   text-decoration: underline;
   font-size: 20px;
-  color: rgba(243, 103, 103, 0.733);
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .cancel-button:hover {
-  color: #2c5b9479;
+  color: #3f3f3f;
 }
 
 .button {
@@ -29,13 +31,14 @@
   border-radius: 6px;
   border: none;
   color: #ffffff;
-  transition: 0.5s ease-in;
+  transition: 0.2s;
 }
 
 .new-expense button:hover,
 .new-expense button:active {
-  box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
-    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 10px #ffdf6ca9;
+  /* box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5); */
 }
 
 .new-expense button.alternative {
@@ -50,15 +53,12 @@
 }
 
 @media screen and (min-width: 549px) {
-  .cancel-button {
-    left: 15rem;
-    top: 26.5rem;
-  }
 }
 
 @media screen and (min-width: 768px) {
   .cancel-button {
-    left: 8rem;
+    position: absolute;
+    left: 5rem;
     top: 5rem;
 
     cursor: pointer;
